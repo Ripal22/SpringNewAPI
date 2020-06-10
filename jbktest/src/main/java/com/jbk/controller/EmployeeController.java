@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("testapi")
 public class EmployeeController {
 
-	@RequestMapping("singlequestion")
+	@RequestMapping("singlequestion") // this is dummy code..
 	public Employee getEmployee() {
 		System.out.println("API is called for questions");
 		Employee employee = new Employee();
